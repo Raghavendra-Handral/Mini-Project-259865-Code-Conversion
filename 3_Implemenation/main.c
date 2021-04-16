@@ -50,7 +50,7 @@ int main()
                 printf("\nEnter the Number in Decimal form (0 to 9): ");
                 scanf("%ld",&decimal);
                 b1=d2b(decimal);
-                g1=b2g(decimal);
+                g1=b2g(b1);
                 printf("Gray form is %ld", g1);
                 printf("Binary form is %ld", b1);
                 break;     
@@ -75,7 +75,7 @@ int main()
                     condition=condition/10;
                 }
                 b1=g2b(gray);
-                d1=b2d(gray);
+                d1=b2d(b1);
                 printf("Decimal form is %ld", d1);
                 printf("Binary form is %ld", b1);
                 break;
