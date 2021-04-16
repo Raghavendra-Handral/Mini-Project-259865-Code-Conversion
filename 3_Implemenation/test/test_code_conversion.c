@@ -1,9 +1,8 @@
-#include "code_conversion"
+#include "code_conversion.h"
 #include "unity.h"
 
-static b;
-static complex_t c2 = {0, 0};
-static complex_t result = {0, 0};
+unsigned int b;
+
 /* Required by the unity test framework */
 void setUp()
 {
@@ -18,10 +17,10 @@ void test(void)
     // Can ommi the below intialization as it is done at the declaration time
     b=1010;
     
-    TEST_ASSERT_EQUAL(10, b2d(&b));
+    TEST_ASSERT_EQUAL(10, b2d(1010));
     b=10;
-    TEST_ASSERT_EQUAL(1010, d2b(&b));
-    TEST_ASSERT_EQUAL(11, b2g(&b));
+    TEST_ASSERT_EQUAL(1010, d2b(10));
+    TEST_ASSERT_EQUAL(11, b2g(10));
     
 }
 

@@ -39,8 +39,8 @@ int main()
                 }
                 g1=b2g(binary);
                 d1=b2d(binary);
-                printf("Gray form is %ld", g1);
-                printf("Decimal form is %ld", d1);
+                printf("Gray form is %ld \n", g1);
+                printf("Decimal form is %ld\n", d1);
                 break;
 
                 
@@ -51,8 +51,8 @@ int main()
                 scanf("%ld",&decimal);
                 b1=d2b(decimal);
                 g1=b2g(b1);
-                printf("Gray form is %ld", g1);
-                printf("Binary form is %ld", b1);
+                printf("Gray form is %ld\n", g1);
+                printf("Binary form is %ld\n", b1);
                 break;     
 
             case 3:
@@ -76,8 +76,8 @@ int main()
                 }
                 b1=g2b(gray);
                 d1=b2d(b1);
-                printf("Decimal form is %ld", d1);
-                printf("Binary form is %ld", b1);
+                printf("Decimal form is %ld\n", d1);
+                printf("Binary form is %ld\n", b1);
                 break;
 
 
