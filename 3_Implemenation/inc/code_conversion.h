@@ -51,4 +51,4 @@ unsigned int d2b(unsigned int dec2);
 
 
 
-#endif  /* #define __CALCULATOR_OPERATIONS_H__ */
+#endif  /* #define __CODE_CONVERTER_H__ */
