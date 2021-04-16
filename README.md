@@ -1,4 +1,9 @@
 # Mini-Project-259865-Code-Conversion
+
+## Build
+[![CI](https://github.com/Raghavendra-Handral/Mini-Project-259865-Code-Conversion/actions/workflows/main.yml/badge.svg)](https://github.com/Raghavendra-Handral/Mini-Project-259865-Code-Conversion/actions/workflows/main.yml)
+
+
     - This project aims to build a converter that converts one form of data to to other form. 
     For example- binary to gray, binary to decimal, gray to decimal and vice-versa.
 
