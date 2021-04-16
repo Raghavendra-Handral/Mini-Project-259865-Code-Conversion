@@ -26,23 +26,27 @@
 
 ## Who:
 
-
+    -Programmers
+    -Learners
+    -Data encryptor
 
 ## What:
 
-
+    -Data Encryption
+    -Data Conversion
 
 ## When:
 
-
+    -Data Encryption
+    -Data Decryption
 
 ## Where:
 
-
+    -Encryptors and Decryptors
 
 ## How:
 
-
+    -To convert dat from one form to another form
 
 # Detail requirements
 ## High Level Requirements:
