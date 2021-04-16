@@ -95,7 +95,7 @@ int main()
         while(x<=3)
         {
             y=1;
-            for(y<=space)
+            while(y<=space)
             {
                 printf(" ");
                 y++;
@@ -132,7 +132,7 @@ int main()
             x++;
 
         }
-        printf("\t\t------Thank You------\n\n")
+        printf("\t\t------Thank You------\n\n");
         
 
 }
