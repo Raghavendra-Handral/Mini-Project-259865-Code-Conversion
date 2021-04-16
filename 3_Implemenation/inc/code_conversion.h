@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio_ext.h>
+
 
 /**
  * @brief To convert binary code to gray code
