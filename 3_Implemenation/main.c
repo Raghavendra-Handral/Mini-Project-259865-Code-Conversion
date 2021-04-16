@@ -114,7 +114,7 @@ int main()
         x=1;
         while( x<=3)
         {
-            y=1
+            y=1;
             while( y<=space)
             {
                 printf(" ");
