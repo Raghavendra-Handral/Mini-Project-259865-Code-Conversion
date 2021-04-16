@@ -1,5 +1,6 @@
 # Mini-Project-259865-Code-Conversion
-    - This project aims to build a converter that converts one form of data to to other form. For example- binary to gray, binary to decimal, gray to decimal and vice-versa.
+    - This project aims to build a converter that converts one form of data to to other form. 
+    For example- binary to gray, binary to decimal, gray to decimal and vice-versa.
 
 ![Image 1](https://github.com/Raghavendra-Handral/Mini-Project-259865-Code-Conversion/blob/a011f5794d8e409ee5fec274e209ceca399b96e3/b2g.png)
 
