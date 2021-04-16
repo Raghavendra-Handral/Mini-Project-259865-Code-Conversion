@@ -26,7 +26,7 @@ unsigned int b2g(unsigned int b)
 
 unsigned int g2b(unsigned int g)
 {
-    int temp1;
+    unsigned int temp1;
     temp1 = g ^ (g >> 128);
     temp1 = g ^ (g >> 64);
     temp1 = g ^ (g >> 32);
