@@ -1,5 +1,6 @@
 #include "code_conversion.h"
 #include "unity.h"
+#include "unity_internals.h"
 
 unsigned int b;
 
