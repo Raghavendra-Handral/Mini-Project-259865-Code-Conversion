@@ -32,5 +32,23 @@ unsigned int b2g(unsigned int b);
  */
 unsigned int g2b(unsigned int g);
 
+/**
+ * @brief To convert binary code to decimal
+ * 
+ * @param bin1 binary_code
+ * @return unsigned int decimal_code
+ */
+unsigned int b2d(unsigned int bin1);
+
+/**
+ * @brief To convert decimal code to binary code
+ * 
+ * @param dec2 decimal_code
+ * @return unsigned int binary_code
+ */
+unsigned int d2b(unsigned int dec2);
+
+
+
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

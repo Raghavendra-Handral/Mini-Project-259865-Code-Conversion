@@ -1,16 +1,16 @@
 # Name of the project
-PROJECT_NAME = Code Converter Calculator
+PROJECT_NAME = Code Converter 
 
 # Output directory
 BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/calculator_operations.c
+src/code_conversion.c
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
-test/test_calculator_operations.c\
+TEST_SRC = src/code_conversion.c\
+test/test_code_conversion.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
